@@ -443,9 +443,20 @@ section {
   text-align: right;
 }
 
+/* .bannersatu {
+  padding-left: 100px;
+}
+
+.bannerdua img {
+  padding-left: 90px;
+} */
+
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+  }
+  .hero .container {
+    padding-left: 200px;
   }
 }
 
@@ -560,7 +571,11 @@ section {
 .about img {
   padding-left: 20px;
 }
-
+@media (min-width: 1024px) {
+  .about .container {
+    padding-left: 200px;
+  }
+}
 @media (max-width: 400px) {
   .about {
     padding: 60px;
