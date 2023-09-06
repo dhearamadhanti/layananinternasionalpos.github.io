@@ -741,7 +741,7 @@ section {
 .checklist {
   display: flex;
   align-items: center;
-  margin-bottom: 1.5px;
+  margin-bottom: 2px;
   padding: 0px;
 }
 
